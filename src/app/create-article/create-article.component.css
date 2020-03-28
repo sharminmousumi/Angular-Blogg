@@ -1,0 +1,20 @@
+h1{
+    color: crimson;
+    
+}
+.lessons-list{
+    font-weight: bold;
+    font-size: 40px;
+    color: darkred;
+}
+.sample-app-content{
+    padding-left: 140px;
+}
+#input{
+    display:block;
+    padding-right: 100px;
+    
+}
+.events{
+    padding-bottom: 25px;
+}

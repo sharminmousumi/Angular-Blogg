@@ -1,0 +1,39 @@
+<div id="title">
+  <h2>{{title}}</h2>
+</div>
+<div id="container">
+  <div id="header">
+  <nav>
+  <a routerLink="/start" class="navBar" routerLinkActive="active">Start</a>
+  <a routerLink="/Latest-Article" class="navBar" routerLinkActive="active">Latest Article</a>
+  <a routerLink="/All-Article" class="navBar" routerLinkActive="active">All Article</a>
+  <a routerLink="/Logg-In" class="navBar" routerLinkActive="active">Logg In</a>
+  <a routerLink="/Create-Article" class="navBar" routerLinkActive="active">Create Article</a>
+  </nav>
+  </div>
+
+
+  <div id="body">
+    <router-outlet></router-outlet>
+  </div>
+  
+  <div id="footer">
+    <ul>
+    <li class="list">
+      <a href="#!">About us</a>
+    </li>
+    <li class="list">
+      <a href="#!">Contact</a>
+    </li>
+    <li class="list">
+      <a href="#!">Address</a>
+    </li>
+    <li class="list">
+      <a href="#!">Visit us</a>
+    </li>
+  </ul>
+</div>
+</div>
+
+
+

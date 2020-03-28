@@ -1,0 +1,22 @@
+#all{
+    color: darkblue;
+    padding-left: 140px;
+    font-weight: bold;
+    
+
+}
+#allArt{
+    color: darkred;
+    padding-left: 20px;
+    
+    
+}
+#deleteButton{
+    color: crimson;
+    background-color: darkred;
+    float:right;
+}
+.grid{
+    border: 8px solid lightgrey;
+    font-size: 20px;
+}
