@@ -10,8 +10,6 @@ import { BlogInterface } from '../blog-interface';
 export class StartComponent implements OnInit {
   Article: BlogInterface[];
  
-  
-
   constructor(public ObjectService:ObjectService) { }
 
   ngOnInit(): void {

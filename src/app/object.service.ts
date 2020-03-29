@@ -26,13 +26,15 @@ export class ObjectService {
       title:'The Secret Life of Bees', author:'State of Wonder', Events:'the cll of my reading lists and you can be sure that any novel on this page is worth your time. Enjoy!',
     time:26}
   ]
+  // show the last 4 articles by using slice method.If i add the new article show as a last article
   getLatestArticle(): BlogInterface[]{
     return this.Article.slice(0,4);
   }
-  
+  // show the all article
   getArticle(): BlogInterface[]{
     return this.Article;
   }
+  // show the last article using slice method
   getStartlatestArticle(){
     return this.Article.slice(0, 1);
 
@@ -41,6 +43,7 @@ export class ObjectService {
   addArticle(newArticle:any){
     this.Article.unshift(newArticle);
   }
+  //delete the article from all article list
   deleteData(data){
     this.Article=this.Article.filter(item => item.title !== data) ;
   }
