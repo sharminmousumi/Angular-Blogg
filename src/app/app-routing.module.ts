@@ -5,6 +5,7 @@ import { LatestArticleComponent } from './latest-article/latest-article.componen
 import { AllArticleComponent } from './all-article/all-article.component';
 import { CreateArticleComponent } from './create-article/create-article.component';
 import { LoggInComponent } from './logg-in/logg-in.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
@@ -12,8 +13,10 @@ const routes: Routes = [
   { path: 'start', component: StartComponent, pathMatch: 'full'},
   { path: 'Latest-Article', component: LatestArticleComponent, pathMatch: 'full'},
   { path: 'All-Article', component: AllArticleComponent, pathMatch: 'full'}, 
-  { path: 'Create-Article', component: CreateArticleComponent,pathMatch: 'full'},
+  { path: 'Create-Article', component: CreateArticleComponent, pathMatch: 'full'},
   { path: 'Logg-In', component: LoggInComponent, pathMatch: 'full' },
+  { path: 'login', redirectTo: '/logga-in' },
+  { path: '**', component: PageNotFoundComponent }
     
 ];
 
