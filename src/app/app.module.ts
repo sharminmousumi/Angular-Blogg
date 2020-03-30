@@ -11,6 +11,7 @@ import { CreateArticleComponent} from './create-article/create-article.component
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { CreateArticleComponent} from './create-article/create-article.component
     LatestArticleComponent,
     AllArticleComponent,
     LoggInComponent,
-    CreateArticleComponent
+    CreateArticleComponent,
+   
   ],
   imports: [
     BrowserModule,

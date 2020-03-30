@@ -7,14 +7,14 @@ import { CreateArticleComponent } from './create-article/create-article.componen
 import { LoggInComponent } from './logg-in/logg-in.component';
 
 
+
 const routes: Routes = [
-  { path: 'start', component: StartComponent},
-  { path: 'Latest-Article', component: LatestArticleComponent},
-  { path: 'All-Article', component: AllArticleComponent}, 
-  { path: 'Create-Article', component: CreateArticleComponent},
-  { path: 'Logg-In', component: LoggInComponent },
-  
-  
+  { path: 'start', component: StartComponent, pathMatch: 'full'},
+  { path: 'Latest-Article', component: LatestArticleComponent, pathMatch: 'full'},
+  { path: 'All-Article', component: AllArticleComponent, pathMatch: 'full'}, 
+  { path: 'Create-Article', component: CreateArticleComponent,pathMatch: 'full'},
+  { path: 'Logg-In', component: LoggInComponent, pathMatch: 'full' },
+    
 ];
 
 @NgModule({
