@@ -8,7 +8,6 @@ import { LatestArticleComponent } from './latest-article/latest-article.componen
 import { AllArticleComponent } from './all-article/all-article.component';
 import { LoggInComponent } from './logg-in/logg-in.component';
 import { CreateArticleComponent} from './create-article/create-article.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
@@ -21,7 +20,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AllArticleComponent,
     LoggInComponent,
     CreateArticleComponent,
-    PageNotFoundComponent,
+    
    
   ],
   imports: [
